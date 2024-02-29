@@ -11,6 +11,11 @@ const publicRouter = [
   }
 ]
 
-const privateRouter = {}
+const privateRouter = []
 
-export default { publicRouter, privateRouter }
+const AppRouters = {
+  publicRouter,
+  privateRouter
+}
+
+export default AppRouters
